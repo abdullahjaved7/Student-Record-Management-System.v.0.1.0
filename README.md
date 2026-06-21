@@ -1,15 +1,29 @@
 # Student Record System
 
-A console-based Python application for managing student records. This project allows users to add, view, search, and analyze student information through an interactive menu-driven interface.
+A console-based Student Record Management System built with Python.
+
+This application allows users to manage student records through a menu-driven interface. Records can be added, viewed, searched, analyzed, saved, and automatically loaded when the application starts.
 
 ## Features
 
+### Student Management
+
 * Add student records
 * View all student records
-* Search for a student by name
+* Search students by name
 * Display the top-performing student
 * Calculate average grades
-* Menu-driven interface using Match-Case
+
+### Data Persistence
+
+* Save records to a file
+* Automatically load records on startup
+* Maintain data between program sessions
+
+### Error Handling
+
+* Handles missing data files gracefully
+* Prevents operations on empty student records
 
 ## Technologies Used
 
@@ -19,6 +33,9 @@ A console-based Python application for managing student records. This project al
 * Dictionaries
 * Loops
 * Match Case Statements
+* File Handling
+* Exception Handling
+* Git & GitHub
 
 ## Project Structure
 
@@ -26,24 +43,25 @@ A console-based Python application for managing student records. This project al
 Student_Record_System/
 │
 ├── main.py
+├── record.txt
 ├── README.md
 ```
 
 ## How to Run
 
-1. Clone the repository
+### Clone the Repository
 
 ```bash
 git clone <repository-url>
 ```
 
-2. Navigate to the project folder
+### Navigate to Project Folder
 
 ```bash
 cd Student_Record_System
 ```
 
-3. Run the application
+### Run the Program
 
 ```bash
 python main.py
@@ -62,47 +80,48 @@ python main.py
 0. Exit System
 ```
 
-## Current Release
+## Version History
 
-Version: v0.1.0
+### v0.1.0
 
-### Implemented
+* Add student records
+* View student records
+* Search student records
+* Calculate average grades
+* Show top student
 
-* Student record management
-* Student search functionality
-* Top student calculation
-* Average grade calculation
-* Empty record validation
+### v0.2.0
 
-### Known Limitations
+* File persistence
+* Automatic record loading
+* Improved empty record handling
+* Better top student logic
+* Data saved between program sessions
 
-* Data is not saved after program exit
-* Input validation is limited
-* No database integration yet
+## Future Improvements (v0.3.0)
 
-## Future Improvements
-
-* Save records to files
-* Load records from files
-* Better input validation
+* Input validation using try/except
+* Edit student records
+* Delete student records
+* Improved user interface
+* Export student data
 * Database integration
-* Graphical User Interface (GUI)
-* Export student reports
 
 ## Learning Outcomes
 
 This project helped me practice:
 
-* Python fundamentals
+* Python Fundamentals
 * Functions
-* Lists and dictionaries
-* Loops and conditionals
-* Problem-solving
-* Git and GitHub workflow
+* Lists & Dictionaries
+* File Handling
+* Exception Handling
+* Problem Solving
+* Git & GitHub Workflow
 
 ## Author
 
 Abdullah Javed
 eduabdullah7@gmail.com
 
-Bachelor's Student in Computer Science
+Bachelor's Student in Computer Science | Aspiring Software Developer
